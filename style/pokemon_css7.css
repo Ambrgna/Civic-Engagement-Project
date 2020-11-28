@@ -1,0 +1,95 @@
+header, nav, main, footer { display: block; }
+body { font-family: Verdana, Arial, sans-serif;
+       background-color: #004400;
+}
+#wrapper { background-color: #339900; 
+           color: #000066;
+           width: 80%;
+		   margin: auto;
+		   min-width: 850px;
+} 
+header {background-color: #229900;
+        color: #004400; 
+        font-size: 150%; 
+		text-align: center;		
+        padding: 10px 0 10px 0;
+		background-image: url(Final/Litten_Meowth.png); 
+		background-repeat: no-repeat;
+}
+nav { float: right;
+	   width: 150px;
+	   font-weight: bold;
+	   font-size: 75%;
+} 
+nav ul { list-style-type: none; 
+          margin: 0;
+          padding: 0;
+}
+nav a  {text-decoration: none; 
+		display: block;
+		padding: 20px;        
+		border-bottom: 1px solid #eeeeee; 	
+		background-repeat: no-repeat;
+		background-position: right 0;
+}
+dt {color: #004400;
+}
+dd a  { text-decoration: none; 
+		display: block;
+		padding: 5px;
+}
+dd {font-size: 68%;
+	margin-left: 0px;
+	float: left;
+	font-weight: bold;
+}
+#email {text-decoration: none; 
+		display: block;
+		width: 150px;
+}
+a img {width: 40px;
+}
+.yellow { background-color: #ffff77;     	
+		  background-image: url(Final/sprites_pokemon.gif);
+}
+.red { background-color: #ff5533;     	
+	   background-image: url(Final/sprites_charmander.gif);
+}
+.blue { background-color: #1199ff;     	
+	    background-image: url(Final/sprites_Squirtle.gif);
+}
+.green { background-color: #44ff33;     	
+		 background-image: url(Final/sprites_Bulbasaur.gif);
+}
+.gold { background-color: gold;     	
+		 background-image: url(Final/sprites_Chikorita.gif);
+}
+.silver { background-color: silver;     	
+		  background-image: url(Final/sprites_Cyndaquil.gif);
+}
+.crystal { background-color:  #966bfa;     	
+		   background-image: url(Final/sprites_Totodile.gif);
+}
+nav a:link    { color: #666666;  }
+nav a:visited { color: #555555; }
+nav a:hover   { color: #777777;
+                background-position: right -75px;	
+}
+main { background-color: #eeeeee;
+           color: #aaaaaa;
+		   padding: 10px 20px;
+	       overflow: auto;		   
+} 
+h1 { margin-bottom: 20px; }
+h2 { color: #869dc7; 
+     font-family: arial, sans-serif;
+}
+#floatright { margin: 10px;
+             float: right;
+}
+footer {font-size:70%;
+         text-align: center;
+         padding: 10px;
+         background-color: #229900;
+		 clear: both;
+}
